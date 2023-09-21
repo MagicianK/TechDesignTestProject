@@ -58,6 +58,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 5314862982828923004}
     m_Modifications:
     - target: {fileID: 2462982658872711108, guid: 2d52b7cdee3e50341a08dae6dd7675eb, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462982658872711108, guid: 2d52b7cdee3e50341a08dae6dd7675eb, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462982658872711108, guid: 2d52b7cdee3e50341a08dae6dd7675eb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
       objectReference: {fileID: 0}
@@ -168,6 +176,14 @@ PrefabInstance:
     - target: {fileID: 2462982658872711110, guid: 2d52b7cdee3e50341a08dae6dd7675eb, type: 3}
       propertyPath: m_Name
       value: switch_scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462982659017905121, guid: 2d52b7cdee3e50341a08dae6dd7675eb, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462982659017905121, guid: 2d52b7cdee3e50341a08dae6dd7675eb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d52b7cdee3e50341a08dae6dd7675eb, type: 3}
