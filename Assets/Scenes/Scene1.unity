@@ -389,13 +389,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: anim_jump
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 679609228883540155, guid: 47d7c51c2c56d964eb3b394ce437c748, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 47d7c51c2c56d964eb3b394ce437c748, type: 3}
 --- !u!95 &5224647442108489698 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4981064515611261397, guid: 47d7c51c2c56d964eb3b394ce437c748, type: 3}
   m_PrefabInstance: {fileID: 5224647442108489697}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5224647442108489699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9189748581308198414, guid: 47d7c51c2c56d964eb3b394ce437c748, type: 3}
+  m_PrefabInstance: {fileID: 5224647442108489697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5224647442108489700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5224647442108489699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd48cbd5735735447ad7737c185197c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 5224647442108489698}
+  animation_name: Frog Jump
 --- !u!1001 &7613722260358016329
 PrefabInstance:
   m_ObjectHideFlags: 0

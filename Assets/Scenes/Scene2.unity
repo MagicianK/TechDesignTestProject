@@ -186,7 +186,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: anim_hit
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1769675649932820113, guid: 45637f0d7830d6c40b5144ca44b8551f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 45637f0d7830d6c40b5144ca44b8551f, type: 3}
 --- !u!95 &1422929483 stripped
 Animator:
@@ -206,7 +207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3652549001634482023, guid: 963cce923bd38434e8160ac675e8aa4c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3652549001634482023, guid: 963cce923bd38434e8160ac675e8aa4c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -334,6 +335,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1904700371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4978732051875118776, guid: 45637f0d7830d6c40b5144ca44b8551f, type: 3}
+  m_PrefabInstance: {fileID: 1422929482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1904700376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904700371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd48cbd5735735447ad7737c185197c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1422929483}
+  animation_name: Frog Hit
 --- !u!1001 &3567328571859696424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -347,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7962132136603741915, guid: c493fd78b3d75c6488130fe424df3444, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7962132136603741915, guid: c493fd78b3d75c6488130fe424df3444, type: 3}
       propertyPath: m_LocalPosition.x
@@ -400,7 +420,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4110819056822840764, guid: cbe759594a617e248a96c70979d769d0, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4110819056822840764, guid: cbe759594a617e248a96c70979d769d0, type: 3}
       propertyPath: m_LocalPosition.x

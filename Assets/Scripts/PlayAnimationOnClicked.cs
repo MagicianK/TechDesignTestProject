@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OnClicked : MonoBehaviour
+public class PlayAnimationOnClicked : MonoBehaviour
 {
     public Animator animator;
     public string animation_name;
