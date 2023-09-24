@@ -128,6 +128,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5314862982828923004, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
   m_PrefabInstance: {fileID: 5314862982118107268}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &912388345 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5314862982828923005, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+  m_PrefabInstance: {fileID: 5314862982118107268}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ba0c4ea15daf04d9559874a80d7f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &971625478
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,6 +289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: anim_run
       objectReference: {fileID: 0}
+    - target: {fileID: 2014680735581375137, guid: 963cce923bd38434e8160ac675e8aa4c, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 5314862982118107269}
     - target: {fileID: 3652549001634482023, guid: 963cce923bd38434e8160ac675e8aa4c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -324,36 +339,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 963cce923bd38434e8160ac675e8aa4c, type: 3}
---- !u!1 &1826084114 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 136347375731409532, guid: 963cce923bd38434e8160ac675e8aa4c, type: 3}
-  m_PrefabInstance: {fileID: 1826084113}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1826084115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826084114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29ba0c4ea15daf04d9559874a80d7f4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1826084116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826084114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46556228f1c525d429f86f546c4ee49a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 5314862982118107269}
 --- !u!1 &1849631502
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,25 +423,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1904700371 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4978732051875118776, guid: 45637f0d7830d6c40b5144ca44b8551f, type: 3}
-  m_PrefabInstance: {fileID: 1422929482}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1904700376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904700371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd48cbd5735735447ad7737c185197c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1422929483}
-  animation_name: Frog Hit
 --- !u!1 &1916966725
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,7 +499,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -679,6 +645,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1916966729}
     m_Modifications:
+    - target: {fileID: 1342291428855025662, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6e041cadc8fd9d44ebb7220a6649cb58, type: 3}
     - target: {fileID: 5314862982828922995, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
       propertyPath: m_Name
       value: ui_button
@@ -767,6 +737,62 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5314862982118107271}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 912388345}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SwitchScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SwitchSceneOnClicked, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Scene1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776707293189059535, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
 --- !u!114 &5314862982118107269 stripped
@@ -780,3 +806,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &5314862982118107271 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1342291428855025662, guid: 31048d200f53a484fbca8dc517334ed2, type: 3}
+  m_PrefabInstance: {fileID: 5314862982118107268}
+  m_PrefabAsset: {fileID: 0}

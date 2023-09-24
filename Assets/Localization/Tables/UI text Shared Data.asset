@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: UI text
   m_TableCollectionNameGuidString: 0d7a219d06d4b764391422eb00dfb7d6
-  m_Entries: []
+  m_Entries:
+  - m_Id: -90149376724992
+    m_Key: ChangeLevelButton
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
